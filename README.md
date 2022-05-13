@@ -71,6 +71,6 @@ https://www.figma.com/community/file/1102912516166573468
 
 - Front / Vercel
 - Back / Railway {
-    setting: start command - npx prisma migrate deploy && npm run start
+    setting: start command - npm run start
     apagar a pasta migrate e criar um novo migrate, só que o com novo DB
 }
