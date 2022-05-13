@@ -70,4 +70,6 @@ https://www.figma.com/community/file/1102912516166573468
 ## Deploy
 
 - Front / Vercel
-- Back / Railway
+- Back / Railway {
+    setting: start command - npx prisma migrate deploy && npm run start
+}
