@@ -22,13 +22,17 @@ Backend - npm run dev
     dentro de tsconfig: {
         target: es2020,
         "rootDir": "./src",
-        "outDir": "./dist"
+        "outDir": "./dist",
+         "include": ["src"]
     }
 - npx tsc  
     dentro de package-json {
-        scripts: {
+         "scripts": {
+            "test": "jest",
+            "build": "tsc",
+            "start": "node dist/server.js",
             "dev": "ts-node-dev src/server.ts"
-        }
+  },
     }
 - npm i express
 - npm i --save-dev @types/express
