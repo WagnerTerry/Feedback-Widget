@@ -66,3 +66,8 @@ Backend - npm run dev
 
 ## Figma
 https://www.figma.com/community/file/1102912516166573468
+
+## Deploy
+
+- Front / Vercel
+- Back / Railway
